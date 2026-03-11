@@ -202,6 +202,4 @@ Like any architecture, they can become structurally fragile.
 
 This tool explores ways to make that fragility visible.
 
----
 
-If you'd like, I can also draft the **top-level repository README** that ties all three tools together (`structural-scan`, `test-audit`, `cascade-map`) so the project reads like a coherent new category rather than three random scripts.

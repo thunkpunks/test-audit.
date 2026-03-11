@@ -1,5 +1,8 @@
-
 # test-audit
+
+Structural diagnostics for software systems.
+
+Analyze the structural health of test suites and detect brittle tests that verify implementation rather than behavior.
 
 **Detect brittle tests and implementation-coupled test suites.**
 
@@ -201,5 +204,27 @@ The idea behind `test-audit` is simple:
 Like any architecture, they can become structurally fragile.
 
 This tool explores ways to make that fragility visible.
+----
+# Related Tools
+
+This project is part of a small family of tools exploring structural diagnostics for software systems.
+
+structural-scan — detects structural signals in codebases
+
+test-audit — analyzes the structural health of test suites
+
+cascade-map — visualizes dependency cascade paths
+
+Each tool examines a different structural layer of a system:
+
+codebase structure  →  structural-scan
+test architecture   →  test-audit
+dependency geometry →  cascade-map
+
+Together they explore a simple idea:
+
+software systems have structure, and that structure can be analyzed.
 
 
+
+These tools are intentionally small and independent, but they share a common goal: making structural properties of software systems visible.

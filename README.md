@@ -1,8 +1,4 @@
 
-Here’s a **clean, developer-credible README** specifically for the `test-audit` tool. It keeps the tone practical, avoids hype, and explains the concept clearly so engineers immediately understand why they might run it.
-
----
-
 # test-audit
 
 **Detect brittle tests and implementation-coupled test suites.**
